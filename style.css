@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./digital-7/digital-7.ttf') format('truetype');
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: MyCustomFont;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    font-size: 50px;
+
+}
